@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambda.EmployeesCRUD", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambda.EmployeesCRUDV1", "AWSLambda.EmployeesCRUDV1\AWSLambda.EmployeesCRUDV1.csproj", "{4BF3591B-B0E0-4D9E-A475-3CC261E2302F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesCRUDV2", "EmployeesCRUDV2\EmployeesCRUDV2.csproj", "{67BB9F8C-2FDD-4C5E-BFE2-A038CE263736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesCRUDV3", "EmployeesCRUDV3\EmployeesCRUDV3.csproj", "{17C1D777-6FCA-4758-8624-D0E4365D7744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4BF3591B-B0E0-4D9E-A475-3CC261E2302F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF3591B-B0E0-4D9E-A475-3CC261E2302F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BF3591B-B0E0-4D9E-A475-3CC261E2302F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BB9F8C-2FDD-4C5E-BFE2-A038CE263736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BB9F8C-2FDD-4C5E-BFE2-A038CE263736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BB9F8C-2FDD-4C5E-BFE2-A038CE263736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BB9F8C-2FDD-4C5E-BFE2-A038CE263736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C1D777-6FCA-4758-8624-D0E4365D7744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C1D777-6FCA-4758-8624-D0E4365D7744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C1D777-6FCA-4758-8624-D0E4365D7744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C1D777-6FCA-4758-8624-D0E4365D7744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
