@@ -1,9 +1,8 @@
 ﻿using Amazon.DynamoDBv2.DataModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AWSLambda.EmployeesCRUD.Models
+namespace EmployeesCRUDV2.Models
 {
-
     [DynamoDBTable("employeesDemo")]
     public class EmployeeDto
     {
@@ -19,5 +18,4 @@ namespace AWSLambda.EmployeesCRUD.Models
 
         public string designation { get; set; } = string.Empty;
     }
-
 }
